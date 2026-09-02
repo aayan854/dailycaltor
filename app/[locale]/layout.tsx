@@ -13,6 +13,8 @@ import { HreflangLinks } from "@/components/layout/HreflangLinks";
 
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: "DailyCaltor",
   description: "Smart Calculators for Business, Nutrition & Everyday Decisions",
