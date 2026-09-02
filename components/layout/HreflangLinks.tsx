@@ -7,6 +7,8 @@ export function HreflangLinks() {
   const pathname = usePathname();
   const baseUrl = 'https://dailycaltor.com';
 
+  if (!pathname) return null;
+
   const getLocalizedPath = (l: string) => {
     const p = pathname as keyof typeof routing.pathnames;
     if (routing.pathnames[p]) {
