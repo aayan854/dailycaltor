@@ -1,0 +1,30 @@
+{
+  "HomePage": {
+    "title": "Smart Calculators for Business, Nutrition & Everyday Decisions",
+    "subtitle": "Calculate smarter, plan better and understand your numbers — with fast, free tools built for real-world decisions.",
+    "searchPlaceholder": "Search a calculator...",
+    "categories": {
+      "business": "Business",
+      "nutrition": "Nutrition",
+      "popular": "Popular Tools"
+    },
+    "businessSection": {
+      "title": "Scale your business with clear numbers.",
+      "description": "Stop guessing. Use our precise tools to understand your unit economics, profit margins, and advertising break-even points. Designed for Ecommerce, SaaS, and Agencies.",
+      "viewAll": "View All Business Tools"
+    },
+    "nutritionSection": {
+      "title": "Fuel your body with data.",
+      "description": "Plan your meals and identify nutritional gaps with our science-backed calculators and massive food database."
+    }
+  },
+  "Tools": {
+    "profit-margin-calculator": "Profit Margin Calculator",
+    "break-even-roas-calculator": "Break-Even ROAS Calculator",
+    "cpa-calculator": "CPA Calculator",
+    "ecommerce-profit-calculator": "Ecommerce Profit Calculator",
+    "saas-unit-economics-calculator": "SaaS Unit Economics Calculator",
+    "nutrition-gap-scanner": "Nutrition Gap Scanner",
+    "smart-meal-builder": "Smart Meal Builder"
+  }
+}

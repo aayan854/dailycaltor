@@ -1,0 +1,30 @@
+{
+  "HomePage": {
+    "title": "Intelligente Rechner für Business, Ernährung & alltägliche Entscheidungen",
+    "subtitle": "Intelligenter rechnen, besser planen und Zahlen verstehen — mit schnellen, kostenlosen Tools für reale Entscheidungen.",
+    "searchPlaceholder": "Rechner suchen...",
+    "categories": {
+      "business": "Geschäft",
+      "nutrition": "Ernährung",
+      "popular": "Beliebte Tools"
+    },
+    "businessSection": {
+      "title": "Skalieren Sie Ihr Geschäft mit klaren Zahlen.",
+      "description": "Hören Sie auf zu raten. Nutzen Sie unsere präzisen Tools, um Ihre Unit Economics, Gewinnmargen und den Break-Even-Punkt zu verstehen.",
+      "viewAll": "Alle Geschäfts-Tools anzeigen"
+    },
+    "nutritionSection": {
+      "title": "Versorgen Sie Ihren Körper mit Daten.",
+      "description": "Planen Sie Ihre Mahlzeiten und identifizieren Sie Nährstofflücken mit unseren wissenschaftlich fundierten Rechnern."
+    }
+  },
+  "Tools": {
+    "profit-margin-calculator": "Gewinnmargenrechner",
+    "break-even-roas-calculator": "Break-Even ROAS Rechner",
+    "cpa-calculator": "CPA Rechner",
+    "ecommerce-profit-calculator": "E-Commerce Gewinnrechner",
+    "saas-unit-economics-calculator": "SaaS Unit Economics Rechner",
+    "nutrition-gap-scanner": "Nährwert-Lücken-Scanner",
+    "smart-meal-builder": "Smarter Mahlzeitenplaner"
+  }
+}

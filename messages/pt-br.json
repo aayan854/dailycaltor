@@ -1,0 +1,30 @@
+{
+  "HomePage": {
+    "title": "Calculadoras Inteligentes para Negócios, Nutrição e Decisões Diárias",
+    "subtitle": "Calcule com inteligência, planeje melhor e entenda seus números — com ferramentas rápidas e gratuitas criadas para decisões do mundo real.",
+    "searchPlaceholder": "Pesquisar uma calculadora...",
+    "categories": {
+      "business": "Negócios",
+      "nutrition": "Nutrição",
+      "popular": "Ferramentas Populares"
+    },
+    "businessSection": {
+      "title": "Escale seu negócio com números claros.",
+      "description": "Pare de adivinhar. Use nossas ferramentas precisas para entender sua economia de unidade, margens de lucro e ponto de equilíbrio.",
+      "viewAll": "Ver todas as ferramentas"
+    },
+    "nutritionSection": {
+      "title": "Alimente seu corpo com dados.",
+      "description": "Planeje suas refeições e identifique lacunas nutricionais com nossas calculadoras."
+    }
+  },
+  "Tools": {
+    "profit-margin-calculator": "Calculadora de Margem de Lucro",
+    "break-even-roas-calculator": "Calculadora ROAS de Equilíbrio",
+    "cpa-calculator": "Calculadora de CPA",
+    "ecommerce-profit-calculator": "Calculadora de Lucro E-commerce",
+    "saas-unit-economics-calculator": "Calculadora de Unit Economics SaaS",
+    "nutrition-gap-scanner": "Scanner de Lacuna Nutricional",
+    "smart-meal-builder": "Planejador de Refeições Inteligente"
+  }
+}
