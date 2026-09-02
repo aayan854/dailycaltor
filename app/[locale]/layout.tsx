@@ -39,10 +39,12 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <HreflangLinks />
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          <HreflangLinks />
+        </NextIntlClientProvider>
       </head>
       <body className={`${plusJakartaSans.className} antialiased dark bg-background text-foreground`}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={messages} locale={locale}>
           <CurrencyProvider defaultLocale={locale}>
             <FavoritesProvider>
               <div className="relative flex min-h-screen flex-col">
