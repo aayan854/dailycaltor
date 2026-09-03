@@ -36,47 +36,69 @@ export default async function Home() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl -z-10"></div>
       </section>
 
-      {/* Popular Tools Section */}
-      <section className="py-20 bg-muted/30">
+      {/* Business Tools Section */}
+      <section id="business" className="py-20 bg-muted/30">
         <div className="container px-4 md:px-6 max-w-6xl mx-auto">
-          <div className="flex items-center justify-between mb-10">
-            <h2 className="text-3xl font-bold tracking-tight">{t('categories.popular')}</h2>
+          <div className="flex items-center gap-3 mb-10">
+            <div className="w-10 h-10 rounded-full bg-blue-500/10 flex items-center justify-center">
+              <DollarSign className="w-5 h-5 text-blue-600" />
+            </div>
+            <h2 className="text-3xl font-bold tracking-tight">{t('categories.business')} Tools</h2>
           </div>
           
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             
-            {/* Profit Margin */}
             <Link href="/profit-margin-calculator" className="group h-full">
               <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-primary/50 bg-background">
                 <CardHeader>
-                  <div className="w-12 h-12 rounded-lg bg-blue-500/10 text-blue-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                    <TrendingUp className="w-6 h-6" />
+                  <div className="w-10 h-10 rounded-lg bg-blue-500/10 text-blue-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                    <TrendingUp className="w-5 h-5" />
                   </div>
-                  <CardTitle className="group-hover:text-primary transition-colors">{tTools('profit-margin-calculator')}</CardTitle>
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">{tTools('profit-margin-calculator')}</CardTitle>
                 </CardHeader>
               </Card>
             </Link>
 
-            {/* Break-Even ROAS */}
             <Link href="/break-even-roas-calculator" className="group h-full">
               <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-primary/50 bg-background">
                 <CardHeader>
-                  <div className="w-12 h-12 rounded-lg bg-green-500/10 text-green-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                    <PieChart className="w-6 h-6" />
+                  <div className="w-10 h-10 rounded-lg bg-green-500/10 text-green-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                    <PieChart className="w-5 h-5" />
                   </div>
-                  <CardTitle className="group-hover:text-primary transition-colors">{tTools('break-even-roas-calculator')}</CardTitle>
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">{tTools('break-even-roas-calculator')}</CardTitle>
                 </CardHeader>
               </Card>
             </Link>
 
-            {/* Nutrition Gap Scanner */}
-            <Link href="/nutrition-gap-scanner" className="group h-full">
+            <Link href="/cpa-calculator" className="group h-full">
               <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-primary/50 bg-background">
                 <CardHeader>
-                  <div className="w-12 h-12 rounded-lg bg-orange-500/10 text-orange-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                    <Activity className="w-6 h-6" />
+                  <div className="w-10 h-10 rounded-lg bg-purple-500/10 text-purple-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                    <Activity className="w-5 h-5" />
                   </div>
-                  <CardTitle className="group-hover:text-primary transition-colors">{tTools('nutrition-gap-scanner')}</CardTitle>
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">{tTools('cpa-calculator')}</CardTitle>
+                </CardHeader>
+              </Card>
+            </Link>
+
+            <Link href="/ecommerce-profit-calculator" className="group h-full">
+              <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-primary/50 bg-background">
+                <CardHeader>
+                  <div className="w-10 h-10 rounded-lg bg-indigo-500/10 text-indigo-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                    <DollarSign className="w-5 h-5" />
+                  </div>
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">{tTools('ecommerce-profit-calculator')}</CardTitle>
+                </CardHeader>
+              </Card>
+            </Link>
+
+            <Link href="/saas-unit-economics-calculator" className="group h-full">
+              <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-primary/50 bg-background">
+                <CardHeader>
+                  <div className="w-10 h-10 rounded-lg bg-sky-500/10 text-sky-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                    <Calculator className="w-5 h-5" />
+                  </div>
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">{tTools('saas-unit-economics-calculator')}</CardTitle>
                 </CardHeader>
               </Card>
             </Link>
@@ -85,42 +107,41 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Categories Overview */}
-      <section className="py-20 bg-background">
-        <div className="container px-4 md:px-6 max-w-6xl mx-auto space-y-16">
-          
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold bg-primary/10 text-primary border-primary/20">
-                {t('categories.business')}
-              </div>
-              <h2 className="text-3xl font-bold tracking-tight">{t('businessSection.title')}</h2>
-              <p className="text-muted-foreground text-lg">
-                {t('businessSection.description')}
-              </p>
-              <ul className="space-y-3">
-                <li><Link href="/cpa-calculator" className="flex items-center gap-3 hover:text-primary hover:underline"><DollarSign className="w-5 h-5 text-primary" /> {tTools('cpa-calculator')}</Link></li>
-                <li><Link href="/ecommerce-profit-calculator" className="flex items-center gap-3 hover:text-primary hover:underline"><DollarSign className="w-5 h-5 text-primary" /> {tTools('ecommerce-profit-calculator')}</Link></li>
-                <li><Link href="/saas-unit-economics-calculator" className="flex items-center gap-3 hover:text-primary hover:underline"><DollarSign className="w-5 h-5 text-primary" /> {tTools('saas-unit-economics-calculator')}</Link></li>
-              </ul>
-              <Button className="mt-4 gap-2">{t('businessSection.viewAll')} <ArrowRight className="w-4 h-4" /></Button>
+      {/* Nutrition Tools Section */}
+      <section id="nutrition" className="py-20 bg-background">
+        <div className="container px-4 md:px-6 max-w-6xl mx-auto">
+          <div className="flex items-center gap-3 mb-10">
+            <div className="w-10 h-10 rounded-full bg-orange-500/10 flex items-center justify-center">
+              <Apple className="w-5 h-5 text-orange-500" />
             </div>
-            
-            <div className="space-y-6">
-              <div className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold bg-orange-500/10 text-orange-600 border-orange-500/20">
-                {t('categories.nutrition')}
-              </div>
-              <h2 className="text-3xl font-bold tracking-tight">{t('nutritionSection.title')}</h2>
-              <p className="text-muted-foreground text-lg">
-                {t('nutritionSection.description')}
-              </p>
-              <ul className="space-y-3">
-                <li><Link href="/nutrition-gap-scanner" className="flex items-center gap-3 hover:text-orange-500 hover:underline"><Apple className="w-5 h-5 text-orange-500" /> {tTools('nutrition-gap-scanner')}</Link></li>
-                <li><Link href="/smart-meal-builder" className="flex items-center gap-3 hover:text-orange-500 hover:underline"><Utensils className="w-5 h-5 text-orange-500" /> {tTools('smart-meal-builder')}</Link></li>
-              </ul>
-            </div>
+            <h2 className="text-3xl font-bold tracking-tight">{t('categories.nutrition')} Tools</h2>
           </div>
+          
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            
+            <Link href="/nutrition-gap-scanner" className="group h-full">
+              <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-orange-500/50 bg-background">
+                <CardHeader>
+                  <div className="w-10 h-10 rounded-lg bg-orange-500/10 text-orange-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                    <Activity className="w-5 h-5" />
+                  </div>
+                  <CardTitle className="text-lg group-hover:text-orange-500 transition-colors">{tTools('nutrition-gap-scanner')}</CardTitle>
+                </CardHeader>
+              </Card>
+            </Link>
 
+            <Link href="/smart-meal-builder" className="group h-full">
+              <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-orange-500/50 bg-background">
+                <CardHeader>
+                  <div className="w-10 h-10 rounded-lg bg-rose-500/10 text-rose-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                    <Utensils className="w-5 h-5" />
+                  </div>
+                  <CardTitle className="text-lg group-hover:text-orange-500 transition-colors">{tTools('smart-meal-builder')}</CardTitle>
+                </CardHeader>
+              </Card>
+            </Link>
+
+          </div>
         </div>
       </section>
     </div>

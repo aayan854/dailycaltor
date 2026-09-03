@@ -17,10 +17,10 @@ export function Navbar() {
             </span>
           </Link>
           <nav className="hidden md:flex gap-6">
-            <Link href="/calculators/business" className="text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60">
+            <Link href="/#business" className="text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60">
               {t('business')}
             </Link>
-            <Link href="/calculators/nutrition" className="text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60">
+            <Link href="/#nutrition" className="text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60">
               {t('nutrition')}
             </Link>
           </nav>
