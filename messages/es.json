@@ -1,21 +1,31 @@
-{
+﻿{
   "HomePage": {
-    "title": "Smart Calculators for Business, Nutrition & Everyday Decisions",
-    "subtitle": "Calculate smarter, plan better and understand your numbers — with fast, free tools built for real-world decisions.",
-    "searchPlaceholder": "Search a calculator...",
+    "title": "Calculadoras Inteligentes para Negocios, Nutrición y Decisiones Diarias",
+    "subtitle": "Calcula de forma más inteligente, planifica mejor y entiende tus números — con herramientas rápidas y gratuitas creadas para decisiones del mundo real.",
+    "searchPlaceholder": "Buscar una calculadora...",
     "categories": {
-      "business": "Business",
-      "nutrition": "Nutrition",
-      "popular": "Popular Tools"
+      "business": "Negocios",
+      "nutrition": "Nutrición",
+      "popular": "Herramientas Populares"
+    },
+    "businessSection": {
+      "title": "Escale su negocio con números claros.",
+      "description": "Deje de adivinar. Utilice herramientas diseñadas para Ecommerce, SaaS y Agencias.",
+      "viewAll": "Ver todas las herramientas"
+    },
+    "nutritionSection": {
+      "title": "Alimente su cuerpo con datos.",
+      "description": "Planifique sus comidas e identifique lagunas nutricionales con calculadoras basadas en la ciencia."
     }
   },
   "Tools": {
-    "profit-margin-calculator": "Profit Margin Calculator",
-    "break-even-roas-calculator": "Break-Even ROAS Calculator",
-    "cpa-calculator": "CPA Calculator",
-    "ecommerce-profit-calculator": "Ecommerce Profit Calculator",
-    "saas-unit-economics-calculator": "SaaS Unit Economics Calculator",
-    "nutrition-gap-scanner": "Nutrition Gap Scanner",
-    "smart-meal-builder": "Smart Meal Builder"
+    "profit-margin-calculator": "Calculadora de Margen de Beneficio",
+    "break-even-roas-calculator": "Calculadora de ROAS",
+    "cpa-calculator": "Calculadora de CPA y ROAS",
+    "ecommerce-profit-calculator": "Calculadora de Beneficio Ecommerce",
+    "saas-unit-economics-calculator": "Calculadora de Economía SaaS",
+    "bmi-calculator": "Calculadora de IMC",
+    "nutrition-gap-scanner": "Escáner Nutricional",
+    "smart-meal-builder": "Planificador de Comidas"
   }
 }

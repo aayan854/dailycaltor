@@ -1,21 +1,31 @@
-{
+﻿{
   "HomePage": {
-    "title": "Smart Calculators for Business, Nutrition & Everyday Decisions",
-    "subtitle": "Calculate smarter, plan better and understand your numbers — with fast, free tools built for real-world decisions.",
-    "searchPlaceholder": "Search a calculator...",
+    "title": "ビジネス、栄養、日常の決断のためのスマート計算機",
+    "subtitle": "現実世界の決断のために作られた高速で無料のツールを使って、より賢く計算し、より良く計画し、数字を理解しましょう。",
+    "searchPlaceholder": "計算機を検索...",
     "categories": {
-      "business": "Business",
-      "nutrition": "Nutrition",
-      "popular": "Popular Tools"
+      "business": "ビジネス",
+      "nutrition": "栄養",
+      "popular": "人気のツール"
+    },
+    "businessSection": {
+      "title": "明確な数字でビジネスを拡大。",
+      "description": "推測はやめましょう。Eコマース、SaaS、代理店向けに設計されたツールを使用してください。",
+      "viewAll": "すべてのツールを表示"
+    },
+    "nutritionSection": {
+      "title": "データで体に栄養を。",
+      "description": "科学に基づいた計算機で食事を計画し、栄養のギャップを特定します。"
     }
   },
   "Tools": {
-    "profit-margin-calculator": "Profit Margin Calculator",
-    "break-even-roas-calculator": "Break-Even ROAS Calculator",
-    "cpa-calculator": "CPA Calculator",
-    "ecommerce-profit-calculator": "Ecommerce Profit Calculator",
-    "saas-unit-economics-calculator": "SaaS Unit Economics Calculator",
-    "nutrition-gap-scanner": "Nutrition Gap Scanner",
-    "smart-meal-builder": "Smart Meal Builder"
+    "profit-margin-calculator": "利益率計算機",
+    "break-even-roas-calculator": "損益分岐ROAS計算機",
+    "cpa-calculator": "CPA & ROAS計算機",
+    "ecommerce-profit-calculator": "Eコマース利益計算機",
+    "saas-unit-economics-calculator": "SaaSユニットエコノミクス計算機",
+    "bmi-calculator": "BMI計算機",
+    "nutrition-gap-scanner": "栄養ギャップスキャナー",
+    "smart-meal-builder": "スマート食事プランナー"
   }
 }

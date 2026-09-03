@@ -1,21 +1,31 @@
-{
+﻿{
   "HomePage": {
-    "title": "Smart Calculators for Business, Nutrition & Everyday Decisions",
-    "subtitle": "Calculate smarter, plan better and understand your numbers — with fast, free tools built for real-world decisions.",
-    "searchPlaceholder": "Search a calculator...",
+    "title": "آلات حاسبة ذكية للأعمال والتغذية والقرارات اليومية",
+    "subtitle": "احسب بذكاء وخطط بشكل أفضل وافهم أرقامك - باستخدام أدوات سريعة ومجانية مصممة للقرارات في العالم الحقيقي.",
+    "searchPlaceholder": "ابحث عن حاسبة...",
     "categories": {
-      "business": "Business",
-      "nutrition": "Nutrition",
-      "popular": "Popular Tools"
+      "business": "أعمال",
+      "nutrition": "تغذية",
+      "popular": "أدوات شائعة"
+    },
+    "businessSection": {
+      "title": "وسع نطاق عملك بأرقام واضحة.",
+      "description": "توقف عن التخمين. استخدم الأدوات المصممة للتجارة الإلكترونية والشركات والوكالات.",
+      "viewAll": "عرض جميع الأدوات"
+    },
+    "nutritionSection": {
+      "title": "غذي جسمك بالبيانات.",
+      "description": "خطط لوجباتك وحدد الفجوات الغذائية باستخدام الآلات الحاسبة المدعومة بالعلم."
     }
   },
   "Tools": {
-    "profit-margin-calculator": "Profit Margin Calculator",
-    "break-even-roas-calculator": "Break-Even ROAS Calculator",
-    "cpa-calculator": "CPA Calculator",
-    "ecommerce-profit-calculator": "Ecommerce Profit Calculator",
-    "saas-unit-economics-calculator": "SaaS Unit Economics Calculator",
-    "nutrition-gap-scanner": "Nutrition Gap Scanner",
-    "smart-meal-builder": "Smart Meal Builder"
+    "profit-margin-calculator": "حاسبة هامش الربح",
+    "break-even-roas-calculator": "حاسبة العائد على الإعلانات",
+    "cpa-calculator": "حاسبة تكلفة الاكتساب",
+    "ecommerce-profit-calculator": "حاسبة أرباح التجارة الإلكترونية",
+    "saas-unit-economics-calculator": "حاسبة اقتصاديات SaaS",
+    "bmi-calculator": "حاسبة مؤشر كتلة الجسم",
+    "nutrition-gap-scanner": "ماسح الفجوة الغذائية",
+    "smart-meal-builder": "مخطط الوجبات الذكي"
   }
 }

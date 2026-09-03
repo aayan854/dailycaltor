@@ -1,0 +1,31 @@
+﻿{
+  "HomePage": {
+    "title": "비즈니스, 영양 및 일상적인 결정을 위한 스마트 계산기",
+    "subtitle": "실제 결정을 위해 만들어진 빠르고 무료인 도구를 사용하여 더 스마트하게 계산하고, 더 잘 계획하고, 숫자를 이해하세요.",
+    "searchPlaceholder": "계산기 검색...",
+    "categories": {
+      "business": "비즈니스",
+      "nutrition": "영양",
+      "popular": "인기 도구"
+    },
+    "businessSection": {
+      "title": "명확한 숫자로 비즈니스를 확장하세요.",
+      "description": "추측은 그만두세요. 이커머스, SaaS 및 에이전시를 위해 설계된 도구를 사용하세요.",
+      "viewAll": "모든 도구 보기"
+    },
+    "nutritionSection": {
+      "title": "데이터로 몸에 영양을 공급하세요.",
+      "description": "과학 기반 계산기로 식사를 계획하고 영양 격차를 확인하세요."
+    }
+  },
+  "Tools": {
+    "profit-margin-calculator": "이익률 계산기",
+    "break-even-roas-calculator": "손익분기 ROAS 계산기",
+    "cpa-calculator": "CPA & ROAS 계산기",
+    "ecommerce-profit-calculator": "이커머스 이익 계산기",
+    "saas-unit-economics-calculator": "SaaS 유닛 이코노믹스 계산기",
+    "bmi-calculator": "BMI 계산기",
+    "nutrition-gap-scanner": "영양 격차 스캐너",
+    "smart-meal-builder": "스마트 식단 플래너"
+  }
+}

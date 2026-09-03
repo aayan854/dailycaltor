@@ -1,21 +1,31 @@
-{
+﻿{
   "HomePage": {
-    "title": "Smart Calculators for Business, Nutrition & Everyday Decisions",
-    "subtitle": "Calculate smarter, plan better and understand your numbers — with fast, free tools built for real-world decisions.",
-    "searchPlaceholder": "Search a calculator...",
+    "title": "व्यापार, पोषण और रोज़मर्रा के निर्णयों के लिए स्मार्ट कैलकुलेटर",
+    "subtitle": "बेहतर गणना करें, बेहतर योजना बनाएं और अपने नंबरों को समझें — वास्तविक दुनिया के लिए बनाए गए तेज़, मुफ़्त टूल के साथ।",
+    "searchPlaceholder": "कैलकुलेटर खोजें...",
     "categories": {
-      "business": "Business",
-      "nutrition": "Nutrition",
-      "popular": "Popular Tools"
+      "business": "व्यापार",
+      "nutrition": "पोषण",
+      "popular": "लोकप्रिय टूल"
+    },
+    "businessSection": {
+      "title": "स्पष्ट नंबरों के साथ अपने व्यापार को बढ़ाएं।",
+      "description": "अनुमान लगाना बंद करें। ईकॉमर्स, सास (SaaS) और एजेंसियों के लिए डिज़ाइन किए गए टूल का उपयोग करें।",
+      "viewAll": "सभी व्यापार टूल देखें"
+    },
+    "nutritionSection": {
+      "title": "डेटा के साथ अपने शरीर को ऊर्जा दें।",
+      "description": "अपने भोजन की योजना बनाएं और विज्ञान-आधारित कैलकुलेटर के साथ पोषण संबंधी कमियों को पहचानें।"
     }
   },
   "Tools": {
-    "profit-margin-calculator": "Profit Margin Calculator",
-    "break-even-roas-calculator": "Break-Even ROAS Calculator",
-    "cpa-calculator": "CPA Calculator",
-    "ecommerce-profit-calculator": "Ecommerce Profit Calculator",
-    "saas-unit-economics-calculator": "SaaS Unit Economics Calculator",
-    "nutrition-gap-scanner": "Nutrition Gap Scanner",
-    "smart-meal-builder": "Smart Meal Builder"
+    "profit-margin-calculator": "प्रॉफिट मार्जिन कैलकुलेटर",
+    "break-even-roas-calculator": "ब्रेक-ईवन ROAS कैलकुलेटर",
+    "cpa-calculator": "CPA और ROAS कैलकुलेटर",
+    "ecommerce-profit-calculator": "ईकॉमर्स प्रॉफिट कैलकुलेटर",
+    "saas-unit-economics-calculator": "सास (SaaS) यूनिट इकोनॉमिक्स कैलकुलेटर",
+    "bmi-calculator": "BMI कैलकुलेटर",
+    "nutrition-gap-scanner": "पोषण गैप स्कैनर",
+    "smart-meal-builder": "स्मार्ट मील बिल्डर"
   }
 }

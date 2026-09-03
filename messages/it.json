@@ -1,21 +1,31 @@
-{
+﻿{
   "HomePage": {
-    "title": "Smart Calculators for Business, Nutrition & Everyday Decisions",
-    "subtitle": "Calculate smarter, plan better and understand your numbers — with fast, free tools built for real-world decisions.",
-    "searchPlaceholder": "Search a calculator...",
+    "title": "Calcolatori Intelligenti per Business, Nutrizione e Decisioni Quotidiane",
+    "subtitle": "Calcola in modo più intelligente, pianifica meglio e comprendi i tuoi numeri — con strumenti veloci e gratuiti creati per decisioni reali.",
+    "searchPlaceholder": "Cerca un calcolatore...",
     "categories": {
       "business": "Business",
-      "nutrition": "Nutrition",
-      "popular": "Popular Tools"
+      "nutrition": "Nutrizione",
+      "popular": "Strumenti Popolari"
+    },
+    "businessSection": {
+      "title": "Fai crescere la tua azienda con numeri chiari.",
+      "description": "Smetti di indovinare. Usa strumenti progettati per Ecommerce, SaaS e Agenzie.",
+      "viewAll": "Vedi tutti gli strumenti"
+    },
+    "nutritionSection": {
+      "title": "Alimenta il tuo corpo con i dati.",
+      "description": "Pianifica i tuoi pasti e identifica le carenze nutrizionali con calcolatori scientifici."
     }
   },
   "Tools": {
-    "profit-margin-calculator": "Profit Margin Calculator",
-    "break-even-roas-calculator": "Break-Even ROAS Calculator",
-    "cpa-calculator": "CPA Calculator",
-    "ecommerce-profit-calculator": "Ecommerce Profit Calculator",
-    "saas-unit-economics-calculator": "SaaS Unit Economics Calculator",
-    "nutrition-gap-scanner": "Nutrition Gap Scanner",
-    "smart-meal-builder": "Smart Meal Builder"
+    "profit-margin-calculator": "Calcolatore Margine di Profitto",
+    "break-even-roas-calculator": "Calcolatore ROAS",
+    "cpa-calculator": "Calcolatore CPA & ROAS",
+    "ecommerce-profit-calculator": "Calcolatore Profitto Ecommerce",
+    "saas-unit-economics-calculator": "Calcolatore Economia SaaS",
+    "bmi-calculator": "Calcolatore IMC",
+    "nutrition-gap-scanner": "Scanner Nutrizionale",
+    "smart-meal-builder": "Pianificatore Pasti"
   }
 }
