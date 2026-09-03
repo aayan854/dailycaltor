@@ -119,6 +119,17 @@ export default async function Home() {
           
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             
+            <Link href="/bmi-calculator" className="group h-full">
+              <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-orange-500/50 bg-background">
+                <CardHeader>
+                  <div className="w-10 h-10 rounded-lg bg-red-500/10 text-red-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                    <Activity className="w-5 h-5" />
+                  </div>
+                  <CardTitle className="text-lg group-hover:text-orange-500 transition-colors">{tTools('bmi-calculator')}</CardTitle>
+                </CardHeader>
+              </Card>
+            </Link>
+
             <Link href="/nutrition-gap-scanner" className="group h-full">
               <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-orange-500/50 bg-background">
                 <CardHeader>

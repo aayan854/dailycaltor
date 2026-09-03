@@ -22,9 +22,10 @@
     "profit-margin-calculator": "Gewinnmargenrechner",
     "break-even-roas-calculator": "Break-Even ROAS Rechner",
     "cpa-calculator": "CPA Rechner",
-    "ecommerce-profit-calculator": "E-Commerce Gewinnrechner",
+    "ecommerce-profit-calculator": "Ecommerce Gewinn-Rechner",
     "saas-unit-economics-calculator": "SaaS Unit Economics Rechner",
-    "nutrition-gap-scanner": "Nährwert-Lücken-Scanner",
+    "bmi-calculator": "BMI Rechner",
+    "nutrition-gap-scanner": "Naehrwertrechner",
     "smart-meal-builder": "Smarter Mahlzeitenplaner"
   }
 }

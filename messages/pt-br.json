@@ -21,10 +21,11 @@
   "Tools": {
     "profit-margin-calculator": "Calculadora de Margem de Lucro",
     "break-even-roas-calculator": "Calculadora ROAS de Equilíbrio",
-    "cpa-calculator": "Calculadora de CPA",
+    "cpa-calculator": "Calculadora CPA",
     "ecommerce-profit-calculator": "Calculadora de Lucro E-commerce",
-    "saas-unit-economics-calculator": "Calculadora de Unit Economics SaaS",
-    "nutrition-gap-scanner": "Scanner de Lacuna Nutricional",
-    "smart-meal-builder": "Planejador de Refeições Inteligente"
+    "saas-unit-economics-calculator": "Calculadora Unit Economics SaaS",
+    "bmi-calculator": "Calculadora IMC",
+    "nutrition-gap-scanner": "Scanner de Lacunas Nutricionais",
+    "smart-meal-builder": "Planejador de Refeicoes Inteligente"
   }
 }

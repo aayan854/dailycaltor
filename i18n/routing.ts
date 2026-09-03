@@ -97,6 +97,18 @@ export const routing = defineRouting({
       ja: '/meal-planner',
       ko: '/meal-planner',
       ar: '/meal-planner'
+    },
+    '/bmi-calculator': {
+      en: '/bmi-calculator',
+      de: '/bmi-rechner',
+      'pt-br': '/calculadora-imc',
+      fr: '/calculateur-imc',
+      es: '/calculadora-imc',
+      it: '/calcolatore-imc',
+      hi: '/bmi-calculator',
+      ja: '/bmi-calculator',
+      ko: '/bmi-calculator',
+      ar: '/bmi-calculator'
     }
   }
 });
