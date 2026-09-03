@@ -1,4 +1,4 @@
-﻿{
+{
   "HomePage": {
     "title": "Calcolatori Intelligenti per Business, Nutrizione e Decisioni Quotidiane",
     "subtitle": "Calcola in modo più intelligente, pianifica meglio e comprendi i tuoi numeri — con strumenti veloci e gratuiti creati per decisioni reali.",
@@ -27,5 +27,125 @@
     "bmi-calculator": "Calcolatore IMC",
     "nutrition-gap-scanner": "Scanner Nutrizionale",
     "smart-meal-builder": "Pianificatore Pasti"
+  },
+  "Calc": {
+    "inputs": "Dati",
+    "results": "Risultati",
+    "optional": "(Opzionale)",
+    "calculate": "Calcola",
+    "weightKg": "Peso (kg)",
+    "heightCm": "Altezza (cm)",
+    "age": "Età",
+    "sex": "Sesso",
+    "male": "Maschio",
+    "female": "Femmina",
+    "cpa": {
+      "title": "Dati Campagna",
+      "desc": "Inserisci metriche pubblicitarie",
+      "adSpend": "Spesa Pubblicitaria",
+      "clicks": "Clic",
+      "conversions": "Conversioni",
+      "aov": "Valore Medio Ordine",
+      "margin": "Margine Netto (%)",
+      "cpa": "CPA",
+      "roas": "ROAS",
+      "convRate": "Tasso di Conversione",
+      "revenue": "Entrate Totali",
+      "profit": "Profitto Netto"
+    },
+    "bmi": {
+      "title": "Tua Metriche",
+      "desc": "Inserisci peso e altezza.",
+      "bmi": "IMC",
+      "category": "Categoria",
+      "info1": "L'IMC è un calcolo semplice.",
+      "info2": "Categorie Standard:",
+      "under": "Sottopeso",
+      "normal": "Normopeso",
+      "over": "Sovrappeso",
+      "obese": "Obeso"
+    },
+    "ecommerce": {
+      "title": "Dati Prodotti",
+      "desc": "Costi e vendite",
+      "price": "Prezzo di Vendita",
+      "cogs": "Costo Prodotto",
+      "qty": "Quantità",
+      "shipping": "Costo Spedizione",
+      "paymentFeePct": "Tariffa Pagamento (%)",
+      "paymentFeeFix": "Tariffa Pagamento (Fissa)",
+      "platformFeePct": "Tariffa Piattaforma (%)",
+      "platformFeeFix": "Tariffa Piattaforma (Fissa)",
+      "adSpend": "Spesa Pubblicitaria",
+      "refunds": "Tasso Rimborso (%)",
+      "discount": "Sconto (%)",
+      "fixedCosts": "Costi Fissi",
+      "grossProfit": "Profitto Lordo",
+      "netProfit": "Profitto Netto",
+      "margin": "Margine Netto",
+      "profitPerOrder": "Profitto per Ordine",
+      "breakEven": "Ordini Pareggio"
+    },
+    "saas": {
+      "title": "Metriche SaaS",
+      "desc": "Le tue metriche",
+      "arpu": "ARPU",
+      "cac": "CAC",
+      "churn": "Tasso Abbandono (%)",
+      "grossMargin": "Margine Lordo (%)",
+      "customers": "Clienti Totali",
+      "fixedCosts": "Costi Fissi",
+      "ltv": "LTV",
+      "ltvCac": "Rapporto LTV:CAC",
+      "mrr": "MRR",
+      "runway": "Mesi per recuperare CAC"
+    },
+    "profitMargin": {
+      "title": "Costi ed Entrate",
+      "desc": "Calcola i margini",
+      "cost": "Costo Totale",
+      "revenue": "Entrate Totali",
+      "gross": "Margine Lordo",
+      "markup": "Ricarico",
+      "profit": "Profitto"
+    },
+    "roas": {
+      "title": "Margine e Costi",
+      "desc": "Calcola il ROAS di pareggio",
+      "price": "Prezzo Prodotto",
+      "cogs": "Costo Merci",
+      "shipping": "Costo Spedizione",
+      "fees": "Commissioni Varie",
+      "breakevenRoas": "ROAS Pareggio",
+      "breakevenCpa": "CPA Pareggio",
+      "profitPerSale": "Profitto per Vendita"
+    },
+    "nutrition": {
+      "title": "Tuo Profilo",
+      "desc": "Inserisci dettagli",
+      "foods": "Alimenti Consumati",
+      "noFoods": "Nessun alimento.",
+      "disclaimer": "Avviso: Solo scopo educativo.",
+      "calories": "Calorie",
+      "protein": "Proteine (g)",
+      "carbs": "Carboidrati (g)",
+      "fat": "Grassi (g)",
+      "status": "Stato Nutrizionale",
+      "micro": "Micronutrienti",
+      "onTrack": "In Linea",
+      "gap": "Divario Moderato",
+      "low": "Inferiore"
+    },
+    "meal": {
+      "title": "Obiettivi Dieta",
+      "desc": "Obiettivi giornalieri",
+      "targetCal": "Calorie Obiettivo",
+      "targetPro": "Proteine Obiettivo (g)",
+      "mealsPerDay": "Pasti al Giorno",
+      "generate": "Genera Piano",
+      "yourPlan": "Tuo Piano Pasti",
+      "totalCal": "Calorie Totali",
+      "totalPro": "Proteine Totali (g)"
+    }
   }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "HomePage": {
     "title": "Calculadoras Inteligentes para Negocios, Nutrición y Decisiones Diarias",
     "subtitle": "Calcula de forma más inteligente, planifica mejor y entiende tus números — con herramientas rápidas y gratuitas creadas para decisiones del mundo real.",
@@ -27,5 +27,125 @@
     "bmi-calculator": "Calculadora de IMC",
     "nutrition-gap-scanner": "Escáner Nutricional",
     "smart-meal-builder": "Planificador de Comidas"
+  },
+  "Calc": {
+    "inputs": "Entradas",
+    "results": "Resultados",
+    "optional": "(Opcional)",
+    "calculate": "Calcular",
+    "weightKg": "Peso (kg)",
+    "heightCm": "Altura (cm)",
+    "age": "Edad",
+    "sex": "Sexo",
+    "male": "Hombre",
+    "female": "Mujer",
+    "cpa": {
+      "title": "Datos de la Campaña",
+      "desc": "Ingrese sus métricas de publicidad",
+      "adSpend": "Gasto en Publicidad",
+      "clicks": "Clics",
+      "conversions": "Conversiones",
+      "aov": "Valor Medio del Pedido",
+      "margin": "Margen de Beneficio Neto (%)",
+      "cpa": "CPA",
+      "roas": "ROAS",
+      "convRate": "Tasa de Conversión",
+      "revenue": "Ingresos Totales",
+      "profit": "Beneficio Neto (Después de Anuncios)"
+    },
+    "bmi": {
+      "title": "Tus Métricas Corporales",
+      "desc": "Ingresa tu peso y altura.",
+      "bmi": "Índice de Masa Corporal (IMC)",
+      "category": "Categoría",
+      "info1": "El IMC es un cálculo sencillo.",
+      "info2": "Categorías Estándar:",
+      "under": "Bajo peso",
+      "normal": "Peso normal",
+      "over": "Sobrepeso",
+      "obese": "Obeso"
+    },
+    "ecommerce": {
+      "title": "Datos de Productos",
+      "desc": "Ingrese costos y ventas",
+      "price": "Precio de Venta",
+      "cogs": "Costo del Producto",
+      "qty": "Cantidad Vendida",
+      "shipping": "Costo de Envío",
+      "paymentFeePct": "Tarifa de Pago (%)",
+      "paymentFeeFix": "Tarifa de Pago (Fijo)",
+      "platformFeePct": "Tarifa de Plataforma (%)",
+      "platformFeeFix": "Tarifa de Plataforma (Fijo)",
+      "adSpend": "Gasto en Publicidad",
+      "refunds": "Tasa de Reembolso (%)",
+      "discount": "Descuento (%)",
+      "fixedCosts": "Gastos Fijos",
+      "grossProfit": "Beneficio Bruto",
+      "netProfit": "Beneficio Neto",
+      "margin": "Margen Neto",
+      "profitPerOrder": "Beneficio por Pedido",
+      "breakEven": "Pedidos para Break-Even"
+    },
+    "saas": {
+      "title": "Métricas SaaS",
+      "desc": "Ingrese las métricas de su software",
+      "arpu": "ARPU",
+      "cac": "CAC",
+      "churn": "Tasa de Churn (%)",
+      "grossMargin": "Margen Bruto (%)",
+      "customers": "Clientes Totales",
+      "fixedCosts": "Costos Fijos",
+      "ltv": "LTV",
+      "ltvCac": "Ratio LTV:CAC",
+      "mrr": "MRR",
+      "runway": "Meses para Recuperar CAC"
+    },
+    "profitMargin": {
+      "title": "Costos y Beneficios",
+      "desc": "Calcule sus márgenes",
+      "cost": "Costo Total",
+      "revenue": "Ingresos Totales",
+      "gross": "Margen Bruto",
+      "markup": "Margen de Beneficio",
+      "profit": "Beneficio"
+    },
+    "roas": {
+      "title": "Margem y Costos",
+      "desc": "Calcule el ROAS de equilibrio",
+      "price": "Precio del Producto",
+      "cogs": "Costo de los Bienes Vendidos",
+      "shipping": "Costo de Envío",
+      "fees": "Tarifas Diversas",
+      "breakevenRoas": "ROAS de Equilibrio",
+      "breakevenCpa": "CPA de Equilibrio",
+      "profitPerSale": "Beneficio por Venta"
+    },
+    "nutrition": {
+      "title": "Tu Perfil",
+      "desc": "Ingresa tus detalles",
+      "foods": "Alimentos Consumidos",
+      "noFoods": "No hay alimentos.",
+      "disclaimer": "Aviso: Información educativa.",
+      "calories": "Calorías",
+      "protein": "Proteína (g)",
+      "carbs": "Carbohidratos (g)",
+      "fat": "Grasa (g)",
+      "status": "Estado Nutricional",
+      "micro": "Micronutrientes",
+      "onTrack": "En Camino",
+      "gap": "Brecha Moderada",
+      "low": "Por Debajo"
+    },
+    "meal": {
+      "title": "Metas de Dieta",
+      "desc": "Metas diarias",
+      "targetCal": "Calorías Objetivo",
+      "targetPro": "Proteína Objetivo (g)",
+      "mealsPerDay": "Comidas por Día",
+      "generate": "Generar Plan",
+      "yourPlan": "Tu Plan de Comidas",
+      "totalCal": "Calorías Totales",
+      "totalPro": "Proteína Total (g)"
+    }
   }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "HomePage": {
     "title": "ビジネス、栄養、日常の決断のためのスマート計算機",
     "subtitle": "現実世界の決断のために作られた高速で無料のツールを使って、より賢く計算し、より良く計画し、数字を理解しましょう。",
@@ -27,5 +27,125 @@
     "bmi-calculator": "BMI計算機",
     "nutrition-gap-scanner": "栄養ギャップスキャナー",
     "smart-meal-builder": "スマート食事プランナー"
+  },
+  "Calc": {
+    "inputs": "入力",
+    "results": "結果",
+    "optional": "(任意)",
+    "calculate": "計算する",
+    "weightKg": "体重 (kg)",
+    "heightCm": "身長 (cm)",
+    "age": "年齢",
+    "sex": "性別",
+    "male": "男性",
+    "female": "女性",
+    "cpa": {
+      "title": "広告キャンペーン",
+      "desc": "広告の指標を入力",
+      "adSpend": "広告費",
+      "clicks": "クリック数",
+      "conversions": "コンバージョン",
+      "aov": "平均注文額",
+      "margin": "純利益率 (%)",
+      "cpa": "CPA",
+      "roas": "ROAS",
+      "convRate": "コンバージョン率",
+      "revenue": "総収益",
+      "profit": "純利益"
+    },
+    "bmi": {
+      "title": "身体指標",
+      "desc": "BMIを計算",
+      "bmi": "BMI",
+      "category": "カテゴリー",
+      "info1": "BMIは簡単な計算です。",
+      "info2": "標準カテゴリー:",
+      "under": "低体重",
+      "normal": "標準",
+      "over": "過体重",
+      "obese": "肥満"
+    },
+    "ecommerce": {
+      "title": "製品データ",
+      "desc": "コストと販売指標",
+      "price": "販売価格",
+      "cogs": "製品原価",
+      "qty": "販売数",
+      "shipping": "送料",
+      "paymentFeePct": "決済手数料 (%)",
+      "paymentFeeFix": "決済手数料 (固定)",
+      "platformFeePct": "プラットフォーム手数料 (%)",
+      "platformFeeFix": "プラットフォーム手数料 (固定)",
+      "adSpend": "広告費",
+      "refunds": "返金率 (%)",
+      "discount": "割引 (%)",
+      "fixedCosts": "固定費",
+      "grossProfit": "粗利益",
+      "netProfit": "純利益",
+      "margin": "純利益率",
+      "profitPerOrder": "1注文あたりの利益",
+      "breakEven": "損益分岐注文数"
+    },
+    "saas": {
+      "title": "SaaS指標",
+      "desc": "ビジネス指標を入力",
+      "arpu": "ARPU",
+      "cac": "CAC",
+      "churn": "解約率 (%)",
+      "grossMargin": "粗利益率 (%)",
+      "customers": "総顧客数",
+      "fixedCosts": "固定費",
+      "ltv": "LTV",
+      "ltvCac": "LTV:CAC比率",
+      "mrr": "MRR",
+      "runway": "CAC回収月数"
+    },
+    "profitMargin": {
+      "title": "コストと収益",
+      "desc": "マージンを計算",
+      "cost": "総費用",
+      "revenue": "総収益",
+      "gross": "粗利益",
+      "markup": "マークアップ",
+      "profit": "利益"
+    },
+    "roas": {
+      "title": "マージンとコスト",
+      "desc": "損益分岐ROASを計算",
+      "price": "製品価格",
+      "cogs": "売上原価",
+      "shipping": "送料",
+      "fees": "各種手数料",
+      "breakevenRoas": "損益分岐ROAS",
+      "breakevenCpa": "損益分岐CPA",
+      "profitPerSale": "1販売あたりの利益"
+    },
+    "nutrition": {
+      "title": "プロフィール",
+      "desc": "詳細を入力",
+      "foods": "今日の食事",
+      "noFoods": "なし。",
+      "disclaimer": "免責事項: 教育目的のみ。",
+      "calories": "カロリー",
+      "protein": "タンパク質 (g)",
+      "carbs": "炭水化物 (g)",
+      "fat": "脂質 (g)",
+      "status": "栄養状態",
+      "micro": "微量栄養素",
+      "onTrack": "順調",
+      "gap": "中程度の不足",
+      "low": "基準未満"
+    },
+    "meal": {
+      "title": "ダイエット目標",
+      "desc": "目標を入力",
+      "targetCal": "目標カロリー",
+      "targetPro": "目標タンパク質 (g)",
+      "mealsPerDay": "1日の食事数",
+      "generate": "プランを作成",
+      "yourPlan": "あなたの食事プラン",
+      "totalCal": "総カロリー",
+      "totalPro": "総タンパク質 (g)"
+    }
   }
 }

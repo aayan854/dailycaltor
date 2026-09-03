@@ -1,4 +1,4 @@
-{
+﻿{
   "HomePage": {
     "title": "Smart Calculators for Business, Nutrition & Everyday Decisions",
     "subtitle": "Calculate smarter, plan better and understand your numbers — with fast, free tools built for real-world decisions.",
@@ -10,7 +10,7 @@
     },
     "businessSection": {
       "title": "Scale your business with clear numbers.",
-      "description": "Stop guessing. Use our precise tools to understand your unit economics, profit margins, and advertising break-even points. Designed for Ecommerce, SaaS, and Agencies.",
+      "description": "Stop guessing. Use our precise tools to understand your unit economics, profit margins, and advertising break-even points.",
       "viewAll": "View All Business Tools"
     },
     "nutritionSection": {
@@ -21,11 +21,131 @@
   "Tools": {
     "profit-margin-calculator": "Profit Margin Calculator",
     "break-even-roas-calculator": "Break-Even ROAS Calculator",
-    "cpa-calculator": "CPA Calculator",
+    "cpa-calculator": "CPA & ROAS Calculator",
     "ecommerce-profit-calculator": "Ecommerce Profit Calculator",
     "saas-unit-economics-calculator": "SaaS Unit Economics Calculator",
     "bmi-calculator": "BMI Calculator",
     "nutrition-gap-scanner": "Nutrition Gap Scanner",
     "smart-meal-builder": "Smart Meal Builder"
+  },
+  "Calc": {
+    "inputs": "Inputs",
+    "results": "Results",
+    "optional": "(Optional)",
+    "calculate": "Calculate",
+    "weightKg": "Weight (kg)",
+    "heightCm": "Height (cm)",
+    "age": "Age",
+    "sex": "Sex",
+    "male": "Male",
+    "female": "Female",
+    "cpa": {
+      "title": "Ad Campaign Inputs",
+      "desc": "Enter your advertising metrics",
+      "adSpend": "Total Ad Spend",
+      "clicks": "Clicks",
+      "conversions": "Conversions (Purchases/Leads)",
+      "aov": "Average Order Value",
+      "margin": "Net Profit Margin (%)",
+      "cpa": "CPA (Cost per Acquisition)",
+      "roas": "ROAS",
+      "convRate": "Conversion Rate",
+      "revenue": "Total Revenue",
+      "profit": "Net Profit (After Ads)"
+    },
+    "bmi": {
+      "title": "Your Body Metrics",
+      "desc": "Enter your weight and height to calculate BMI.",
+      "bmi": "Body Mass Index (BMI)",
+      "category": "Category",
+      "info1": "BMI is a simple calculation using a person's height and weight.",
+      "info2": "Standard Categories:",
+      "under": "Underweight",
+      "normal": "Normal weight",
+      "over": "Overweight",
+      "obese": "Obese"
+    },
+    "ecommerce": {
+      "title": "Product & Sales Data",
+      "desc": "Enter product costs and sales metrics",
+      "price": "Selling Price",
+      "cogs": "Product Cost (COGS)",
+      "qty": "Quantity Sold",
+      "shipping": "Shipping Cost per Item",
+      "paymentFeePct": "Payment Gateway Fee (%)",
+      "paymentFeeFix": "Payment Gateway Fee (Fixed)",
+      "platformFeePct": "Platform Fee (%)",
+      "platformFeeFix": "Platform Fee (Fixed)",
+      "adSpend": "Advertising Spend",
+      "refunds": "Refund Rate (%)",
+      "discount": "Discount (%)",
+      "fixedCosts": "Other Fixed Expenses",
+      "grossProfit": "Gross Profit",
+      "netProfit": "Net Profit",
+      "margin": "Net Margin",
+      "profitPerOrder": "Profit Per Order",
+      "breakEven": "Break-Even Orders"
+    },
+    "saas": {
+      "title": "SaaS Metrics",
+      "desc": "Enter your software business metrics",
+      "arpu": "Average Revenue Per User (ARPU)",
+      "cac": "Customer Acquisition Cost (CAC)",
+      "churn": "Monthly Churn Rate (%)",
+      "grossMargin": "Gross Margin (%)",
+      "customers": "Total Customers",
+      "fixedCosts": "Fixed Monthly Costs",
+      "ltv": "Customer Lifetime Value (LTV)",
+      "ltvCac": "LTV:CAC Ratio",
+      "mrr": "Monthly Recurring Revenue (MRR)",
+      "runway": "Months to Recover CAC"
+    },
+    "profitMargin": {
+      "title": "Cost & Revenue",
+      "desc": "Calculate your margins",
+      "cost": "Total Cost",
+      "revenue": "Total Revenue",
+      "gross": "Gross Margin",
+      "markup": "Markup",
+      "profit": "Profit"
+    },
+    "roas": {
+      "title": "Margin & Costs",
+      "desc": "Calculate break-even ad spend",
+      "price": "Product Price",
+      "cogs": "Cost of Goods Sold",
+      "shipping": "Shipping Cost",
+      "fees": "Misc Fees",
+      "breakevenRoas": "Break-Even ROAS",
+      "breakevenCpa": "Break-Even CPA",
+      "profitPerSale": "Profit per Sale"
+    },
+    "nutrition": {
+      "title": "Your Profile",
+      "desc": "Enter your details",
+      "foods": "Foods Eaten Today",
+      "noFoods": "No foods added yet.",
+      "disclaimer": "Nutrition Disclaimer: DailyCaltor provides general nutrition information for educational purposes only.",
+      "calories": "Calories",
+      "protein": "Protein (g)",
+      "carbs": "Carbs (g)",
+      "fat": "Fat (g)",
+      "status": "Estimated Nutrient Status",
+      "micro": "Micronutrients",
+      "onTrack": "On Track",
+      "gap": "Moderate Gap",
+      "low": "Lower Than Reference"
+    },
+    "meal": {
+      "title": "Diet Targets",
+      "desc": "Enter your daily macro goals",
+      "targetCal": "Target Calories (kcal)",
+      "targetPro": "Target Protein (g)",
+      "mealsPerDay": "Meals Per Day",
+      "generate": "Generate Meal Plan",
+      "yourPlan": "Your Meal Plan",
+      "totalCal": "Total Calories",
+      "totalPro": "Total Protein (g)"
+    }
   }
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "HomePage": {
     "title": "Calculatrices Intelligentes pour les Affaires, la Nutrition et les Décisions Quotidiennes",
     "subtitle": "Calculez plus intelligemment, planifiez mieux et comprenez vos chiffres — avec des outils rapides et gratuits conçus pour le monde réel.",
@@ -27,5 +27,125 @@
     "bmi-calculator": "Calculateur IMC",
     "nutrition-gap-scanner": "Scanner Nutritionnel",
     "smart-meal-builder": "Planificateur de Repas"
+  },
+  "Calc": {
+    "inputs": "Entrées",
+    "results": "Résultats",
+    "optional": "(Optionnel)",
+    "calculate": "Calculer",
+    "weightKg": "Poids (kg)",
+    "heightCm": "Taille (cm)",
+    "age": "Âge",
+    "sex": "Sexe",
+    "male": "Homme",
+    "female": "Femme",
+    "cpa": {
+      "title": "Données de la Campagne",
+      "desc": "Vos mesures publicitaires",
+      "adSpend": "Dépenses Publicitaires",
+      "clicks": "Clics",
+      "conversions": "Conversions",
+      "aov": "Panier Moyen",
+      "margin": "Marge Nette (%)",
+      "cpa": "CPA",
+      "roas": "ROAS",
+      "convRate": "Taux de Conversion",
+      "revenue": "Revenu Total",
+      "profit": "Bénéfice Net"
+    },
+    "bmi": {
+      "title": "Vos Mesures",
+      "desc": "Entrez votre poids et taille.",
+      "bmi": "IMC",
+      "category": "Catégorie",
+      "info1": "L'IMC est un calcul simple.",
+      "info2": "Catégories Standard:",
+      "under": "Insuffisance pondérale",
+      "normal": "Poids normal",
+      "over": "Surpoids",
+      "obese": "Obèse"
+    },
+    "ecommerce": {
+      "title": "Produits et Ventes",
+      "desc": "Coûts et ventes",
+      "price": "Prix de Vente",
+      "cogs": "Coût du Produit",
+      "qty": "Quantité Vendue",
+      "shipping": "Frais de Port",
+      "paymentFeePct": "Frais de Paiement (%)",
+      "paymentFeeFix": "Frais de Paiement (Fixe)",
+      "platformFeePct": "Frais de Plateforme (%)",
+      "platformFeeFix": "Frais de Plateforme (Fixe)",
+      "adSpend": "Dépenses Publicitaires",
+      "refunds": "Taux de Remboursement (%)",
+      "discount": "Réduction (%)",
+      "fixedCosts": "Frais Fixes",
+      "grossProfit": "Bénéfice Brut",
+      "netProfit": "Bénéfice Net",
+      "margin": "Marge Nette",
+      "profitPerOrder": "Bénéfice par Commande",
+      "breakEven": "Commandes de Seuil de Rentabilité"
+    },
+    "saas": {
+      "title": "Métriques SaaS",
+      "desc": "Vos mesures logicielles",
+      "arpu": "ARPU",
+      "cac": "CAC",
+      "churn": "Taux de Désabonnement (%)",
+      "grossMargin": "Marge Brute (%)",
+      "customers": "Clients Totaux",
+      "fixedCosts": "Coûts Fixes",
+      "ltv": "LTV",
+      "ltvCac": "Ratio LTV:CAC",
+      "mrr": "MRR",
+      "runway": "Mois pour récupérer le CAC"
+    },
+    "profitMargin": {
+      "title": "Coûts et Revenus",
+      "desc": "Calculez vos marges",
+      "cost": "Coût Total",
+      "revenue": "Revenu Total",
+      "gross": "Marge Brute",
+      "markup": "Marge Commerciale",
+      "profit": "Bénéfice"
+    },
+    "roas": {
+      "title": "Marge et Coûts",
+      "desc": "Calculer le ROAS d'équilibre",
+      "price": "Prix du Produit",
+      "cogs": "Coût des Marchandises",
+      "shipping": "Frais de Port",
+      "fees": "Frais Divers",
+      "breakevenRoas": "ROAS d'Équilibre",
+      "breakevenCpa": "CPA d'Équilibre",
+      "profitPerSale": "Bénéfice par Vente"
+    },
+    "nutrition": {
+      "title": "Votre Profil",
+      "desc": "Entrez vos détails",
+      "foods": "Alimentos Consommés",
+      "noFoods": "Aucun aliment.",
+      "disclaimer": "Avis: Informations éducatives.",
+      "calories": "Calories",
+      "protein": "Protéines (g)",
+      "carbs": "Glucides (g)",
+      "fat": "Lipides (g)",
+      "status": "Statut Nutritionnel",
+      "micro": "Micronutriments",
+      "onTrack": "En Bonne Voie",
+      "gap": "Écart Modéré",
+      "low": "Inférieur"
+    },
+    "meal": {
+      "title": "Objectifs de Régime",
+      "desc": "Objectifs quotidiens",
+      "targetCal": "Calories Cibles",
+      "targetPro": "Protéines Cibles (g)",
+      "mealsPerDay": "Repas par Jour",
+      "generate": "Générer un Plan",
+      "yourPlan": "Votre Plan de Repas",
+      "totalCal": "Calories Totales",
+      "totalPro": "Protéines Totales (g)"
+    }
   }
 }
