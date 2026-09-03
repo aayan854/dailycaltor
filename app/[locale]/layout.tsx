@@ -9,7 +9,6 @@ import { CurrencyProvider } from "@/components/providers/CurrencyProvider";
 import { FavoritesProvider } from "@/components/providers/FavoritesProvider";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { HreflangLinks } from "@/components/layout/HreflangLinks";
 
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -41,9 +40,6 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <NextIntlClientProvider messages={messages} locale={locale}>
-          <HreflangLinks />
-        </NextIntlClientProvider>
       </head>
       <body className={`${plusJakartaSans.className} antialiased dark bg-background text-foreground`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
