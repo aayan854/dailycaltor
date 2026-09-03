@@ -26,7 +26,8 @@
     "saas-unit-economics-calculator": "SaaS 유닛 이코노믹스 계산기",
     "bmi-calculator": "BMI 계산기",
     "nutrition-gap-scanner": "영양 격차 스캐너",
-    "smart-meal-builder": "스마트 식단 플래너"
+    "smart-meal-builder": "스마트 식단 플래너",
+    "work-hours-calculator": "근무 시간 계산기"
   },
   "Calc": {
     "inputs": "입력",

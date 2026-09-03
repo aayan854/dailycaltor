@@ -26,7 +26,8 @@
     "saas-unit-economics-calculator": "Calcolatore Economia SaaS",
     "bmi-calculator": "Calcolatore IMC",
     "nutrition-gap-scanner": "Scanner Nutrizionale",
-    "smart-meal-builder": "Pianificatore Pasti"
+    "smart-meal-builder": "Pianificatore Pasti",
+    "work-hours-calculator": "Calcolatore di Ore Lavorative"
   },
   "Calc": {
     "inputs": "Dati",

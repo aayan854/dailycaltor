@@ -26,7 +26,8 @@
     "saas-unit-economics-calculator": "حاسبة اقتصاديات SaaS",
     "bmi-calculator": "حاسبة مؤشر كتلة الجسم",
     "nutrition-gap-scanner": "ماسح الفجوة الغذائية",
-    "smart-meal-builder": "مخطط الوجبات الذكي"
+    "smart-meal-builder": "مخطط الوجبات الذكي",
+    "work-hours-calculator": "حاسبة ساعات العمل"
   },
   "Calc": {
     "inputs": "المدخلات",

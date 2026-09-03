@@ -2,8 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Calculator, ArrowRight, TrendingUp, PieChart, Utensils, Apple, DollarSign, Activity } from 'lucide-react';
-
+import { Calculator, ArrowRight, TrendingUp, PieChart, Utensils, Apple, DollarSign, Activity, Clock } from 'lucide-react';
 export default async function Home() {
   const t = await getTranslations('HomePage');
   const tTools = await getTranslations('Tools');
@@ -99,6 +98,17 @@ export default async function Home() {
                     <Calculator className="w-5 h-5" />
                   </div>
                   <CardTitle className="text-lg group-hover:text-primary transition-colors">{tTools('saas-unit-economics-calculator')}</CardTitle>
+                </CardHeader>
+              </Card>
+            </Link>
+
+            <Link href="/work-hours-calculator" className="group h-full">
+              <Card className="h-full transition-all duration-300 hover:shadow-md hover:border-primary/50 bg-background">
+                <CardHeader>
+                  <div className="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                    <Clock className="w-5 h-5" />
+                  </div>
+                  <CardTitle className="text-lg group-hover:text-primary transition-colors">{tTools('work-hours-calculator')}</CardTitle>
                 </CardHeader>
               </Card>
             </Link>

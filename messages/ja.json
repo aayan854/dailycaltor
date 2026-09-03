@@ -26,7 +26,8 @@
     "saas-unit-economics-calculator": "SaaSユニットエコノミクス計算機",
     "bmi-calculator": "BMI計算機",
     "nutrition-gap-scanner": "栄養ギャップスキャナー",
-    "smart-meal-builder": "スマート食事プランナー"
+    "smart-meal-builder": "スマート食事プランナー",
+    "work-hours-calculator": "労働時間計算機"
   },
   "Calc": {
     "inputs": "入力",

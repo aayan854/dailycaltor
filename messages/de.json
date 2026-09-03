@@ -26,7 +26,8 @@
     "saas-unit-economics-calculator": "SaaS Unit Economics Rechner",
     "bmi-calculator": "BMI Rechner",
     "nutrition-gap-scanner": "Naehrwertrechner",
-    "smart-meal-builder": "Smarter Mahlzeitenplaner"
+    "smart-meal-builder": "Smarter Mahlzeitenplaner",
+    "work-hours-calculator": "Arbeitszeitrechner"
   },
   "Calc": {
     "inputs": "Eingaben",
